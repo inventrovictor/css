@@ -22,7 +22,6 @@ sidebar {
     overflow-y: auto;
 }
 main {
-    display: flex;
     flex-direction: row;
     flex: auto;
 }

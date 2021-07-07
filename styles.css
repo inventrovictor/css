@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+body > * {
+    background: #eee;
+    padding: 2rem;
+    text-align: center;
+    border: 5px solid white;
+}
+header,
+footer {
+    flex: 1 100%;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+sidebar {
+    flex: 1;
+    overflow-y: auto;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
